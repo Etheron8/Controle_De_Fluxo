@@ -1,18 +1,18 @@
-## Getting Started
+## Controler de Fluxos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## CaixaEletronico Controle de Fluxo Simples
 
-The workspace contains two folders by default, where:
+- `saldo`: Inicia com um valor Double
+- `saque`: valor do quem em Double ja definido
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## CaixaDeMercado Controle de Fluxo encadeando
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Usei `Scanner` para deixar o Usúario escolher nome do produto, quantidade,  valor do produto, no final serar passado em um controle de fluxo encadeado para verificaçâo.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `saldo`: inicia em 50$
+- `produto`: inicia em branco para ser definido pelo objeto Scanner
+- `quantidade`: inicia em branco para ser definido pelo objeto Scanner
+- `valor`: inicia em branco para ser definido pelo objeto Scanner
